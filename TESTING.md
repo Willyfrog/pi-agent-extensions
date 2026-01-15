@@ -18,6 +18,13 @@ Or a single run:
 npm run test:run
 ```
 
+## Project Layout
+
+- Source lives in `extensions/` and `skills/` for IDE visibility.
+- Pi loads them via symlinks in `.pi/`:
+  - `.pi/extensions` → `extensions/`
+  - `.pi/skills` → `skills/`
+
 ## Writing Tests
 
 - Add tests under `test/`.
