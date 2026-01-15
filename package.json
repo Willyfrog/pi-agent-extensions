@@ -1,0 +1,16 @@
+{
+  "name": "agent-q",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "test:run": "vitest run"
+  },
+  "devDependencies": {
+    "@mariozechner/pi-ai": "^0.46.0",
+    "@mariozechner/pi-coding-agent": "^0.46.0",
+    "@sinclair/typebox": "^0.34.13",
+    "typescript": "^5.4.5",
+    "vitest": "^2.1.8"
+  }
+}
